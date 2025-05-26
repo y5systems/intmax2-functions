@@ -10,7 +10,7 @@ export const networkConfig = {
     },
     sepolia: {
       chain: sepolia,
-      rpcUrl: `https://base-sepolia.infura.io/v3/67e3f29b5f69455c9c07f884cf02d854`,
+      rpcUrl: `https://eth-sepolia.g.alchemy.com/v2/${config.ALCHEMY_API_KEY}`,
     },
   },
   scroll: {
@@ -20,7 +20,7 @@ export const networkConfig = {
     },
     sepolia: {
       chain: scrollSepolia,
-      rpcUrl: `https://scroll-sepolia.infura.io/v3/67e3f29b5f69455c9c07f884cf02d854`,
+      rpcUrl: `https://scroll-sepolia.g.alchemy.com/v2/${config.ALCHEMY_API_KEY}`,
     },
   },
 };
