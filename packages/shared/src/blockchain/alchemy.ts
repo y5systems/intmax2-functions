@@ -23,7 +23,7 @@ export class Alchemy {
       case "ethereum-mainnet":
         return Network.ETH_MAINNET;
       case "ethereum-sepolia":
-        return Network.ETH_SEPOLIA;
+        return Network.BASE_SEPOLIA;
       case "scroll-mainnet":
         return Network.SCROLL_MAINNET;
       case "scroll-sepolia":
